@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: payment-processor
-          image: quay.io/mfoster/payment-processor-amd64:0.1
+          image: quay.io/skupper/patient-portal-payment-processor
           ports:
             - containerPort: 8080
 ---
